@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--remix icon-->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+	<!--google fonts-->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<!--bootstrap CSS-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!--CDN-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>My sounds</title>
+</head>
+
+<body>
+
+	<!-- header1-->
+	<!--debut main area-->
+	<main>
+		<!-- header -->
+		<header class="text-center header-social-icon text-lg-start bg-info text-white">
+			<!-- Section: Social media -->
+			<section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom">
+				<!-- Left -->
+				<div class="me-5 d-lg-block">
+					<span class="mx-2"><i class="ri-phone-fill mx-2"></i>(+237) 655001948/679244867</span>
+					<span><i class="ri-calendar-2-fill mx-2"></i>Mon-Fri: 24H/24</span>
+				</div>
+				<!-- Left -->
+
+				<!-- Right -->
+				<div>
+					<a href="" class="me-4 link-secondary">
+						<i class="fa fa-facebook-f"></i>
+					</a>
+					<a href="" class="me-4 link-secondary">
+						<i class="fa fa-twitter"></i>
+					</a>
+					<a href="" class="me-4 link-secondary">
+						<i class="fa fa-google"></i>
+					</a>
+					<a href="" class="me-4 link-secondary">
+						<i class="fa fa-instagram"></i>
+					</a>
+					<a href="" class="me-4 link-secondary">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<a href="" class="me-4 link-secondary">
+						<i class="fa fa-github"></i>
+					</a>
+				</div>
+				<!-- Right -->
+			</section>
+			<!-- Section: Social media -->
+		</header>
+		<!-- fin header -->
+
+		<nav class="mainnav shadow navbar-expand-lg navbar navbar-dark bg-dark" style="min-width: 350px;">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><i class="ri-headphone-fill"></i> My sounds
+					<div style="font-size: 10px;">Unleash your potential</div>
+				</a>
+				<div class="box">
+					<form>
+						<input type="text" name="" placeholder="recherche...">
+						<input type="submit" name="" value="Recherche">
+					</form>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#" style="color: red;">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Discover</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Trending</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">New</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Genre
+							</a>
+							<ul class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Pop</a></li>
+								<li><a class="dropdown-item" href="#">Rap</a></li>
+								<li><a class="dropdown-item" href="#">R&B</a></li>
+								<li><a class="dropdown-item" href="#">hip hop</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Country</a></li>
+							</ul>
+						</li>
+						<form>
+							<div>
+								<a href="signin.html">
+								<button type="button" class="btn btn-primary"><i class="ri-user-fill"></i>Signin</button>
+							    </a>
+							</div>
+						</form>
+						&nbsp;&nbsp;
+						<form>
+							<div>
+								<a href="signup.html">
+								<button type="button" class="btn btn-primary"><i class="ri-user-add-fill"></i>Signup</button>
+							    </a>
+							</div>
+						</form>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--fin navigation-->
+
+
+
+		<!--debut hero area-->
+		<div class="hero-area text-white pt-1 mt-2">
+
+			<div class="nav-spacer"></div>
+
+			<ul class="hero-nav nav m-4 nav-pills mb-3 mt-1" id="pills-tab" role="tablist">
+				<li class="nav-item" role="presentation">
+					<button class="text-light nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+						aria-selected="true">Featured</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="text-white nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+						aria-selected="false">Trending</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="text-white nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+						data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+						aria-selected="false">New Release</button>
+				</li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent mt-2">
+
+				<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">01</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/booba.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">DKR</div>
+								<small class="text-white" style="font-size: 10;">BOOBA</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i><i class="ri-download-2-line"></i>
+						</div>
+					</div>
+					<!--end small song item-->
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">02</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/ptit.b.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">Joyeux Anniversair</div>
+								<small class="text-white" style="font-size: 10;">Petit Bozard</small>
+							</div>
+						</div>
+						<div class="col-3">04:00 <i class="ri-play-mini-fill"></i><i class="ri-download-2-line"></i>
+						</div>
+					</div>
+					<!--end small song item-->
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">03</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/chris.b.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">Under The Influence</div>
+								<small class="text-white" style="font-size: 10;">Chris Brown</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i><i class="ri-download-2-line"></i>
+						</div>
+					</div>
+					<!--end small song item-->
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">04</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/salatiel.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">Touche Pas</div>
+								<small class="text-white" style="font-size: 10;">Salatiel</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i><i class="ri-download-2-line"></i>
+						</div>
+					</div>
+					<!--end small song item-->
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">05</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/davido.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">If</div>
+								<small class="text-white" style="font-size: 10;">Davido</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i><i class="ri-download-2-line"></i>
+						</div>
+					</div>
+					<!--end small song item-->
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">06</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/charlotte.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">Elle n'a pas vu</div>
+								<small class="text-white" style="font-size: 10;">Charlotte Dipanda</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i><i class="ri-download-2-line"></i>
+						</div>
+					</div>
+					<!--end small song item-->
+
+				</div>
+
+
+				<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">01</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/booba.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">DKR</div>
+								<small class="text-white" style="font-size: 10;">BOOBA</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i></div>
+					</div>
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">02</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/ptit.b.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">Joyeux Anniversair</div>
+								<small class="text-white" style="font-size: 10;">Petit Bozard</small>
+							</div>
+						</div>
+						<div class="col-3">04:00 <i class="ri-play-mini-fill"></i></div>
+					</div>
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">03</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/chris.b.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">Under The Influence</div>
+								<small class="text-white" style="font-size: 10;">Chris Brown</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i></div>
+					</div>
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">04</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/locko.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">DON'T GO</div>
+								<small class="text-white" style="font-size: 10;">LOCKO</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i></div>
+					</div>
+
+					<!--end small song item-->
+				</div>
+
+
+				<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">07</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/booba.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">DKR</div>
+								<small class="text-white" style="font-size: 10;">BOOBA</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i></div>
+					</div>
+					<!--end small song item-->
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">08</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/ptit.b.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">Joyeux Anniversair</div>
+								<small class="text-white" style="font-size: 10;">Petit Bozard</small>
+							</div>
+						</div>
+						<div class="col-3">04:00 <i class="ri-play-mini-fill"></i></div>
+					</div>
+					<!--end small song item-->
+
+					<!--small song item-->
+					<div class="song-small m-1 ms-4 col-md-6 row align-items-center">
+						<div class="col-1 h3 text-white">09</div>
+						<div class="col d-flex">
+							<img class="rounded m-1" src="assets/images/products/chris.b.jpg"
+								style="width: 40px; height:50px; object-fit: cover;">
+							<div class="ms-1">
+								<div class="text-white">Under The Influence</div>
+								<small class="text-white" style="font-size: 10;">Chris Brown</small>
+							</div>
+						</div>
+						<div class="col-3">05:00 <i class="ri-play-mini-fill"></i></div>
+					</div>
+					<!--end small song item-->
+				</div>
+			</div>
+		</div>
+		<!--fin hero area-->
+
+
+		<h5 class="song-category-title mx-5 mt-2">Pop Music<small class="float-end"><a href=""
+					style="text-decoration: none ;"> View more<i class="ri-share-box-line"></i></a></small></h5>
+		<!--debut category area-->
+		<section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap;">
+
+			<!--song card debut1-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/tiakola1.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Tiakola</div>
+					<small class="text-muted text-white">soza <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin1-->
+
+
+			<!--song card debut2-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/niska1.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Niska</div>
+					<small class="text-muted text-white">Genkidama<i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin2-->
+
+			<!--song card debut3-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin3-->
+
+			<!--song card debut4-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/blanche.b.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Blanche Bailly</div>
+					<small class="text-muted text-white">Mes respect <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin4-->
+
+			<!--song card debut5-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin5-->
+
+			<!--song card debut6-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin6-->
+
+			<!--song card debut7-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin7-->
+
+
+		</section>
+		<!--fin category area-->
+
+
+		<h5 class="song-category-title mx-5 mt-2">Country<small class="float-end"><a href=""
+					style="text-decoration: none ;"> View more<i class="ri-share-box-line"></i></a></small></h5>
+		<!--debut category area-->
+		<section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap;">
+
+			<!--song card debut1-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin1-->
+
+
+			<!--song card debut2-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin2-->
+
+			<!--song card debut3-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin3-->
+
+			<!--song card debut4-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin4-->
+
+			<!--song card debut5-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin5-->
+
+			<!--song card debut6-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin6-->
+
+			<!--song card debut7-->
+			<div class="m-0 mx-3" style="width: 100px;">
+				<div style="position: relative;">
+					<img src="assets/images/products/magasco.jpg" class="big-song-img rounded img-fluid">
+					<a href="#">
+						<div class="big-song-hover">
+							<i class="ri-play-circle-fill"></i>
+						</div>
+					</a>
+				</div>
+				<div>
+					<div class="lead text-white">Magasco</div>
+					<small class="text-muted text-white">Future <i class="ri-music-fill"></i></small>
+				</div>
+			</div>
+			<!--song card fin7-->
+
+		</section>
+		<!--fin category area-->
+
+	</main>
+	<!--fin main area-->
+
+	<footer class="p-5 pt-4 row bg-dark text-white">
+		<div class="col-md-3 mb-4 col-sm-6">
+			<h5><i class="ri-headphone-fill"></i>My sounds</h5>
+			<ul class="nav flex-column">
+				<li><a href="#" style="text-decoration: none;">Home</a></li>
+				<li><a href="#" style="text-decoration: none;">Latest</a></li>
+				<li><a href="#" style="text-decoration: none;">Signup</a></li>
+				<li><a href="#" style="text-decoration: none;">Login</a></li>
+				<li><a href="#" style="text-decoration: none;">Blog</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 mb-4 col-sm-6">
+			<h5>Useful links</h5>
+			<ul class="nav flex-column">
+				<li><a href="#" style="text-decoration: none;">Featured</a></li>
+				<li><a href="#" style="text-decoration: none;">New Release</a></li>
+				<li><a href="#" style="text-decoration: none;">Help</a></li>
+				<li><a href="#" style="text-decoration: none;">Privacy Policy</a></li>
+				<li><a href="#" style="text-decoration: none;">Partners</a></li>
+			</ul>
+		</div>
+		<div class="col-md-6 mb-4">
+			<h5>Subscribe to our newsletter</h5>
+			<div>To receive news content</div>
+			<div class="box">
+				<form>
+					<input type="email" name="" placeholder="Email">
+					<input type="submit" name="" value="Subscribe" id="subscribe"
+						style="background-color: rosybrown;height: 38px;">
+				</form>
+			</div>
+			<div class="text-white h6 mt-1">
+				Follow us:
+				<a href="#" style="text-decoration: none;">
+					<i class="ri-facebook-fill"></i>
+				</a>
+				<a href="#" style="text-decoration: none;">
+					<i class="ri-twitter-fill"></i>
+				</a>
+				<a href="#" style="text-decoration: none;">
+					<i class="ri-instagram-fill"></i>
+				</a>
+				<a href="#" style="text-decoration: none;">
+					<i class="ri-google-fill"></i>
+				</a>
+				<a href="#" style="text-decoration: none;">
+					<i class="ri-linkedin-fill"></i>
+				</a>
+				<a href="#" style="text-decoration: none;">
+					<i class="ri-github-fill"></i>
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<section class="">
+		<!-- Footer -->
+		<footer class="text-center text-white" style="background-color: #0a4275;">
+			<!-- Grid container -->
+
+			<!-- Copyright -->
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+				© 2022 Copyright:
+				<a class="text-white" href="https://mdbootstrap.com/" style="text-decoration: none;">
+					www.DigitalCooperation.com</a>
+			</div>
+			<!-- Copyright -->
+		</footer>
+		<!-- Footer -->
+	</section>
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+
+</html>
